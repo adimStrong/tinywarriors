@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1398043265609190445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398043265609190444}
+  - component: {fileID: 1398043265609190435}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1398043265609190444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398043265609190445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1398043265609190435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398043265609190445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a189d7d3a7649f69029e2578e2c785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ThemeMenu
+    clip: {fileID: 8300000, guid: a95bbaedcf33d44a7b0fb8fb3517e6d1, type: 3}
+    loop: 1
+    volume: 0.852
+    pitch: 0.95
+    source: {fileID: 0}
+  - name: BatDead
+    clip: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}
+    loop: 0
+    volume: 0.979
+    pitch: 1
+    source: {fileID: 0}
+  - name: pistola
+    clip: {fileID: 8300000, guid: fa7f046ce321d4021b5e753bf1152916, type: 3}
+    loop: 0
+    volume: 0.475
+    pitch: 1
+    source: {fileID: 0}
+  - name: BossRedAttack
+    clip: {fileID: 8300000, guid: 319fb03107d7cbc43aeebbf0c58a616c, type: 3}
+    loop: 0
+    volume: 0.482
+    pitch: 2
+    source: {fileID: 0}
+  - name: Collide
+    clip: {fileID: 8300000, guid: d0c64002efcbb423b9ac4976d7d125b5, type: 3}
+    loop: 0
+    volume: 0.085
+    pitch: 0.74
+    source: {fileID: 0}
+  - name: click
+    clip: {fileID: 8300000, guid: f6c05266a3c354b319e33c37c3c3813d, type: 3}
+    loop: 0
+    volume: 0.681
+    pitch: 0.74
+    source: {fileID: 0}

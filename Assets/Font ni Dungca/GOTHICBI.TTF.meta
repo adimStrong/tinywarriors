@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 7a3320fb3507d4d0aa102a10fe8954b8
+timeCreated: 1516619250
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Century Gothic
+  fontNames:
+  - Century Gothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 079aee451d7ce4129a7541447038f9b2, type: 3}
+  - {fileID: 12800000, guid: 5bd3d3b7386d643729c9f1b3733bc104, type: 3}
+  - {fileID: 12800000, guid: 5c37fd7b2794d484c8f1830514bae863, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
